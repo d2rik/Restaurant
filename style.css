@@ -1,0 +1,68 @@
+#bg-image {
+    background-image: url("images/backgrond.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .st-card {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*coommon style*/
+  .text-orange {
+    color: orange;
+  }
+  .bg-orange {
+    background-color: orange;
+    color: rgb(233, 233, 233);
+  }
+  .bg-orange:hover {
+    background-color: rgb(233, 151, 0);
+    color: white;
+  }
+  .subs{
+    max-width: 500px;
+  }
+  /*coommon style*/
+  @media (max-width: 768px) {
+    .rabbi-1 {
+      text-align: center;
+    }
+  }
+  /* min width */
+  @media (min-width: 576px) {
+    .rabbi-1 {
+      width: 500px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .rabbi-1 {
+      width: 400px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .rabbi-1 {
+      width: 550px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .rabbi-1 {
+      width: 700px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .rabbi-1 {
+      width: 800px;
+    }
+  }
